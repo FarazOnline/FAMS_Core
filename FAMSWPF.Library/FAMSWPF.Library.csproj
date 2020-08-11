@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Models\Sample\Category.cs" />
+    <Compile Remove="Models\Sample\FAMSContext.cs" />
+    <Compile Remove="Models\Sample\Product.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\Capital\Contra\" />
+    <Folder Include="Models\Expenditure\Contra\" />
+    <Folder Include="Models\Liabilities\Contra\" />
+    <Folder Include="Models\Revenue\Contra\" />
+    <Folder Include="Models\Sample\" />
+  </ItemGroup>
+
+</Project>
